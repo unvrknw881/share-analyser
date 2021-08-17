@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Share Price Analyser</title>
+    <link rel="stylesheet" href="./styles/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="header__title">Analyse your Investments</h1>
+    </header>
+    <main>
+      <div class="container">
+        <div class="input-control">
+          <label for="invested-price">Enter the initial share price</label>
+          <input type="number" name="invested-price" id="invested-price" />
+        </div>
+        <div class="input-control">
+          <label for="share-count">Enter number of shares you purchased</label>
+          <input type="number" name="share-count" id="share-count" />
+        </div>
+        <div class="input-control">
+          <label for="final-price">Enter the final share price</label>
+          <input type="number" name="final-price" id="final-price" />
+        </div>
+        <div class="input-control">
+          <button id="btn-analyse" class="btn btn-analyse">Analyse</button>
+        </div>
+        <h2 class="result" id="result"></h2>
+      </div>
+    </main>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>
